@@ -32,7 +32,7 @@ services:
     restart: unless-stopped
 
   opensearch01:
-    image: hub.icert.top/opensearchproject/opensearch:2.19.1
+    image: opensearchproject/opensearch:2.19.4
     volumes:
       - osdata01:/usr/share/opensearch/data
     ports:
